@@ -1,0 +1,633 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* =========================== Fonts Famaliy =============================== */
+
+@font-face {
+	font-family: Pacifico;
+	src: url("fonts/pacifico.eot");
+}
+
+@font-face {
+	font-family: Pacifico;
+	src: url("fonts/pacifico.ttf");
+}
+
+@font-face {
+	font-family: Bebas;
+	src: url("fonts/bebas.eot");
+}
+
+@font-face {
+	font-family: Bebas;
+	src: url("fonts/bebas.ttf");
+}
+
+@font-face {
+	font-family: Helvetica Neue;
+	src: url("fonts/helvetica-neue.eot");
+}
+
+@font-face {
+	font-family: Helvetica Neue;
+	src: url("fonts/helvetica-neue.ttf");
+}
+
+/* ======================= Fonts Famaliy End Here ========================== */
+
+/* ===================== Navbar Brand In The Center ======================== */
+
+.navbar {
+	padding: 20px 0px 25px 0px;
+	background-color: white;
+	border: 0px;
+}
+
+.navbar-brand {
+	font-family: American Typewriter;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 25px;
+	margin-top: 2px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: red;
+	font-family: Impact;
+}
+
+.navbar-header img {
+	margin-top: -5px;
+	margin-left: -1px;
+}
+
+.navbar-right {
+	margin-right: -16px;
+	font-family: Bebas;
+}
+
+.navbar-right span {
+	display: block;
+	color: #bdbdbd;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.nav .bold {
+	color: #474747;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#sticky {
+	width: 100%;
+}
+
+.stick {
+	margin-top: 0 !important;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	box-shadow: 0px 0px 50px blue;
+}
+
+/* ================ Navbar Brand In The Center End Here ==================== */
+
+/* ============ Default Carousel Configuration Start From Here ============= */
+
+.Carousel-Area {
+	margin-top: -20px;
+}
+
+#my-carousel .item {
+	height: 400px;
+}
+
+#slide1 {
+	background: url('images/carousel-medium=01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('images/carousel-medium=02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('images/carousel-medium=03.jpg') top center no-repeat;
+}
+
+#slide4 {
+	background: url('images/carousel-medium=04.jpg') top center no-repeat;
+}
+
+.carousel-caption {
+	font-size: 18px;
+	font-family: Impact;
+	font-weight: bold;
+	padding: 25px;
+}
+
+.carousel-caption h4 {
+	font-size: 25px;
+	font-family: Bebas;
+}
+
+.carousel-indicators {
+	position: absolute;
+	bottom: 5px;
+	left: 101%;
+	width: 50%;
+	margin-left: -35%;
+}
+
+.carousel-indicators li {
+	border-radius: 0px;
+	width: 30px;
+	height: 7px;
+}
+
+.carousel-indicators .active {
+	width: 30px;
+	height: 7px;
+	margin: 0;
+	margin-bottom: 1px;
+	background-color: #fff;
+}
+
+.over {
+	background: #404040;
+	color: white;
+	font-family: Bebas;
+	width: 19.9%;
+	margin-top: -86px;
+	padding: 10px 0px 15px 15px;
+}
+
+.over p {
+	padding: 0px;
+	margin: 0px;
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.over h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+}
+
+/* =============== Default Carousel Configuration End Here ================= */
+
+/* ================= Start Big-Callout With Hidden Area ==================== */
+
+.arrow img {
+	position: absolute;
+	top: -12px;
+	left: 49%;
+}
+
+.well {
+	margin-top: -2px;
+	border-radius: 0px;
+	background: ;
+}
+
+.well .page-header {
+	margin: 0;
+	border-bottom: 0px;
+	padding: 0px;
+	font-family: Bebas;
+	font-size: 10px;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+.well p {
+	text-align: justify;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	color: gray;
+	font-size: 14px;
+}
+
+#big-callout .glyphicon {
+	font-size: 15px;
+}
+
+.well-small {
+	border-radius: 5px;
+}
+
+.well-small a {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+/* ============ Start Big-Callout With Hidden Area End Here ================ */
+
+/* ============================ Panel Area ================================= */
+
+.Panel-Area {
+	margin-top: 45px;
+}
+
+.panel {
+	margin-bottom: 50px;
+	background-color: white;
+	border-radius: 0px;
+}
+
+.panel .left {
+	float: left;
+	width: 16%;
+}
+
+.panel .right {
+	float: right;
+	width: 75%;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+	font-family: Bebas;
+	color: #464646;
+}
+
+.panel .glyphicon {
+	font-size: 55px;
+	color: gray;
+}
+
+.panel .glyphicon-search {
+	margin-top: 6px;
+}
+
+.panel .glyphicon-star {
+	margin-top: 5px;
+}
+
+.panel .glyphicon-comment {
+	margin-top: 2px;
+}
+
+.panel-body {
+	padding: 0px;
+	margin-top: 62px;
+	font-size: 14px;
+	border-bottom: 2px solid white;
+}
+
+.panel-body p {
+	text-align: justify;
+	margin-top: 30px;
+	clear: both;
+	color: gray;
+	font-family: sans-serif;
+}
+
+.panel>.find>a {
+	font-weight: bold;
+	float: left;
+	color: black;
+	margin-top: 6px;
+	font-family: Bebas;
+	font-size: 14px;
+}
+
+.panel>.find>a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+/* =========================== Panel Area End Here ========================= */
+
+/* ====================== Thumbnail Area With Content ====================== */
+
+.portfolio {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: url(images/strip.png) repeat-x;
+}
+
+.portfolio h1 {
+	font-weight: bold;
+	font-family: Bebas;
+	margin-top: -4px;
+	font-size: 31px;
+	margin-bottom: 10px;
+}
+
+.work {
+	background: white;
+	width: 25%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.thumbnail {
+	padding: 0px;
+	margin-bottom: 35px;
+	border: 0px;
+	border-radius: 0px;
+	text-align: justify;
+}
+
+.thumbnail img {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.thumbnail .caption {
+	padding: 0px;
+}
+
+.thumbnail .caption h3 {
+	margin-bottom: 20px;
+	margin-top: 15px;
+	font-family: Bebas;
+	font-size: 20px;
+	color: #414141;
+	text-transform: uppercase;
+}
+
+.thumbnail p {
+	font-size: 12px;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: gray;
+}
+
+.thumbnail .view a {
+	font-weight: bold;
+	float: left;
+	color: black;
+	margin-top: 5px;
+	font-family: Bebas;
+	font-size: 14px;
+	margin-bottom: 60px;
+}
+
+.thumbnail .view a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+/* ================== Thumbnail Area With Content End Here ================= */
+
+/* ======================== Footer With Strip Area ========================= */
+
+.Big-Strip-Area img {
+	margin-bottom: -12px;
+	padding: 0px;
+}
+
+footer {
+	background: #f9f9f9;
+	color: #877c7c;
+	font-size: 12px;
+	padding: 30px;
+	font-family: Helvetica;
+}
+
+.footer-left {
+	text-align: left;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+.footer-left p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-right p {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ================== Footer With Strip Area End Here ====================== */
+
+/* ======================= Start Media Queries ============================= */
+
+@media (max-width: 480px) {
+	.navbar-brand {
+		max-width: 200px !important;
+		font-size: 20px !important;
+	}
+	#my-carousel .carousel-indicators {
+		bottom: 2px;
+		left: 98%;
+		width: 41%;
+		margin-left: -37%;
+	}
+	#arrow img {
+		left: 46%;
+	}
+	.page-header h1 {
+		font-size: 19px;
+	}
+	.well-small {
+		margin-bottom: -10px;
+	}
+	#panel .left span.glyphicon {
+		font-size: 55px;
+	}
+	#panel .left span.glyphicon-search {
+		margin-top: 7px;
+	}
+	#panel .left span.glyphicon-star {
+		margin-top: 6px;
+	}
+	#panel .left span.glyphicon-comment {
+		margin-top: 2px;
+	}
+	.right>.pro-heading {
+		font-size: 25px;
+	}
+	#thumbnail>.portfolio>h1.work {
+		font-size: 23px;
+		width: 60%;
+		margin-top: -25px;
+	}
+	.thumbnail .caption h3 {
+		font-size: 16px;
+	}
+	.thumbnail>.caption>.view>a {
+		margin-top: 2px;
+		font-size: 12.5px;
+		margin-bottom: 30px;
+	}
+	footer p {
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		margin-top: -6px;
+		max-width: 250px;
+		font-size: 25px;
+	}
+	.navbar-right {
+		margin-right: -15px;
+	}
+	.navbar-right span {
+		margin-left: 5px;
+		font-size: 10px;
+	}
+
+	.nav .bold {
+		color: #474747;
+		font-weight: bold;
+		font-size: 17px;
+	}
+	.navbar-header button.navbar-toggle {
+		margin-top: 10px;
+	}
+	#my-carousel .item {
+		height: 310px;
+	}
+	#slide1 {
+		background: url('images/carousel-small=01.jpg') top center no-repeat;
+	}
+	#slide2 {
+		background: url('images/carousel-small=02.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('images/carousel-small=03.jpg') top center no-repeat;
+	}
+	#slide4 {
+		background: url('images/carousel-small=04.jpg') top center no-repeat;
+	}
+	.carousel-caption {
+		font-size: 12px;
+	}
+	.carousel-caption h4 {
+		font-size: 20px;
+	}
+	.carousel-indicators {
+		bottom: 2px;
+		left: 109%;
+		width: 41%;
+		margin-left: -37%;
+	}
+	.carousel-indicators li {
+		width: 15px;
+		height: 7px;
+	}
+	.carousel-indicators .active {
+		width: 15px;
+		height: 7px;
+	}
+	#over .over {
+		width: 22.5%;
+		margin-top: -68px;
+	}
+	#over .over p {
+		font-size: 15px;
+	}
+	#over .over h1 {
+		font-size: 20px;
+	}
+	.left span.glyphicon {
+		font-size: 40px;
+		margin-top: 12px;
+	}
+	.left span.glyphicon-star {
+		margin-top: 11px;
+	}
+	.left span.glyphicon-comment {
+		margin-top: 9px;
+	}
+	.pro-heading {
+		font-size: 20px;
+	}
+	.panel .panel-body p {
+		margin-top: 20px;
+	}
+	.portfolio>h1.work {
+		font-size: 25px;
+		width: 40%;
+		margin-top: -25px;
+	}
+	.thumbnail {
+		margin-bottom: 70px;
+	}
+	footer p {
+		text-align: center;
+	}
+	#footer p {
+		margin: 5px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.over {
+		width: 19.3%;
+		margin-top: -74px;
+	}
+	.over p {
+		font-size: 18px;
+	}
+	.over h1 {
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#my-carousel .item {
+		height: 500px;
+	}
+	#slide1 {
+		background: url('images/carousel-large=01.png') top center no-repeat;
+	}
+	#slide2 {
+		background: url('images/carousel-large=02.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('images/carousel-large=03.jpg') top center no-repeat;
+	}
+	#slide4 {
+		background: url('images/carousel-large=04.jpg') top center no-repeat;
+	}
+}
+
+/* ======================= Media Queries End Here ========================== */
+
+/* ======================== CSS Styling End Here ============================= */
